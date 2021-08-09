@@ -39,14 +39,16 @@ footer {
   left: 0;
   right: 0;
   text-align: center;
-  position: relative; }
+  position: relative;
+  }
 
 .footer__content {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  text-align: center; }
+  text-align: center; 
+}
   .footer__content h3 {
     font-size: 1.8rem;
     font-weight: 400;
@@ -78,7 +80,7 @@ footer {
 .footer__bottom {
   background-color: #080c13;
   width: 100vw;
-  padding: 20px 0;
+  padding: 5px 0;
   text-align: center; }
   .footer__bottom p {
     font-size: 14px;
@@ -105,9 +107,5 @@ footer {
     font-size: 15px; } }
 
 .carousel-inner {
-  display: flex;
-  flex-direction: row;
-  overflow: hidden;
-  width: 800px;
-  align-items: center;
-  position: relative; }
+  width: 50vw;
+  }
